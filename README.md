@@ -153,7 +153,8 @@ Battel2.cs
 <br>
 <li>
 
-Приказ на твојот напад :
+Приказ на твојот напад :</li>
+<li>
 <img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/10320490_863614426998990_9022204208966894112_n.jpg" alt="Main Screen" /> 
 
 </li>

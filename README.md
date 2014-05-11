@@ -289,9 +289,31 @@ Pokemon Trouble-боунс игра</b>
     
     
     </ul>
-    
-    
-   
+
+</p>
+
+
+<p>
+<b>
+Се надеваме дека играта ќе ви се допадне и ви посакуваме пријатна игра!
+</b>
+
+</p>
+
+Изработија :
+=====
+<p>
+Кристијан Ласковски 125014<br/>
+Анастасија Дaвитковска 125033<br/>
+Марјана Петковска 125009<br/>
+</p>
+
+Користена Литература  :
+=====
+<p>
+<a href="http://www.serebii.net/index2.shtml">http://www.serebii.net/index2.shtml</a>
+
+<a href="http://www.nintendo.com/games/detail/o_rRqkFsspvnTA2VRy-edUejTFlGkDq7">http://www.nintendo.com/games/detail/o_rRqkFsspvnTA2VRy-edUejTFlGkDq7</a>
 
 
 </p>

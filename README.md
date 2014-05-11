@@ -21,6 +21,35 @@ How to play  екранот во кој се објаснува како се и
 <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-frc1/t1.0-9/10255131_863620223665077_8567593929553891442_n.jpg" alt="Main Screen" /> 
 </li>
 
+<li>
+При изборот на нова игра потребно е да се избери дали ќе играш како Boy / Girl , да внесиш твое име , потоа од листата на  три почетни Pokemon  да избериш еден , а послетоа се започнува со играта : <br /> 
+
+
+</li>
+
+<li>
+Избор на пол:<br />
+<img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-frc3/t1.0-9/10269382_863626996997733_7102921837685817971_n.jpg" alt="Main Screen" height="300"/> 
+</li>
+
+<li>
+
+Внесување име :<br/>
+<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/10173757_863626993664400_539012307662050299_n.jpg" alt="Main Screen" height="300"/> 
+
+</li>
+
+
+<li>
+
+Избирање на почетен Pokemon:<br/>
+<img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/q71/s720x720/10330303_863618396998593_8921466534215009242_n.jpg" alt="Main Screen" height="300"/> 
+
+</li>
+
+
+
+
 </ul>
 Во кодот има имплементации на класи за Pokemon, Avatar(Trainer), Animations, Attack..(na Marijana)
 Класата Animations е основната класа која ја користиме за доловување на анимацијата за движењата на Pokemoni-те, како и нивните меѓусебни напаѓања. Таа се состои од поле од Bitmaps и нивни редни броеви. За имплементација на овие движења го користиме методот GiveNextImage() со кој редоследно се исцртуваат сликите.

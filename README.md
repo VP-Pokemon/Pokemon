@@ -60,26 +60,27 @@ Animations.cs
 <p>
 Класата Animations е основната класа која ја користиме за доловување на анимацијата за движењата на Pokemoni-те, како и нивните меѓусебни напаѓања. Таа се состои од поле од Bitmaps и нивни редни броеви. За имплементација на овие движења го користиме методот GiveNextImage() со кој редоследно се исцртуваат сликите.
 
-<code>
-public Bitmap GiveNextImage()
-      {
-          Bitmap b = null;
-          if (place < Images.Length)
-          {
-              b = Images[place++];
 
+
+
+<pre lang="no-highlight"><code>
+public Bitmap GiveNextImage()
+      {Bitmapb=null;
+          if(place< Images.Length)
+          { 
+              b=Images[place++];
           }
           else
           {
               place = 0;
               b=Images[place++];
-             
           }
-
           return b;
       }
+</code></pre>
 
-</code>
+
+
 
 </p>
 

@@ -52,7 +52,7 @@ How to play  екранот во кој се објаснува како се и
 
 </ul>
 <p>
-Во кодот има имплементации на класи за Pokemon, Avatar(Trainer), Animations, Attack..(na Marijana)
+Во кодот има имплементации на класи за Pokemon, Avatar(Trainer), Animations, Attack, FlyingPokemon.
 </p>
 
 Animations.cs

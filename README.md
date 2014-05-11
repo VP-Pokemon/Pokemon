@@ -63,27 +63,33 @@ Animations.cs
 
 
 
-<pre lang="no-highlight"><code>
-public Bitmap GiveNextImage()
-      {Bitmapb=null;
-          if(place< Images.Length)
-          { 
-              b=Images[place++];
+
+
+</p>
+
+
+
+<a name="blockquotes"/>
+
+```no-highlight
+ public Bitmap GiveNextImage()
+      {
+          Bitmap b = null;
+          if (place < Images.Length)
+          {
+              b = Images[place++];
+
           }
           else
           {
               place = 0;
               b=Images[place++];
+             
           }
+
           return b;
       }
-</code></pre>
-
-
-
-
-</p>
-
+```
 Attack.cs
 =====
 <p>

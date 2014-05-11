@@ -147,7 +147,7 @@ Battel2.cs
 <li>
 Избирање на напад :
 <img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn1/t1.0-9/10341659_863614420332324_2263674632600819810_n.jpg" alt="Main Screen" /> 
-
+</li>
 <li>
 
 Приказ на твојот напад :

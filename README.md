@@ -183,48 +183,39 @@ Battel2.cs
             String weaknessOpPok = OPpok.Weakness;
             if (weaknessOpPok == atk.Type)
             {
-
-                rezultat -= atk.Damage*2;
+           rezultat -= atk.Damage*2;
                 string pp = Mypok.Name + " used : " + atk.Name + "  and dealed " + Convert.ToString(atk.Damage*2) + " damage - SUPER EFFECTIVE";
-
                 textBox1.Text =  pp;
                 if (rezultat < 0)
                 {
                     rezultat = 0;
                     progressBar2.Value = rezultat;
-
                 }
                 else
                     progressBar2.Value = rezultat;
             }
             if (OPpok.StrongAgenst== atk.Type)
             {
-
                 rezultat -= Convert.ToInt32(atk.Damage*0.2);
                 string pp = Mypok.Name + " used : " + atk.Name + "  and dealed " + Convert.ToString(10*0.2) + " damage -NOT VERY EFFECTIVE";
-
                 textBox1.Text =  pp;
                 if (rezultat < 0)
                 {
                     rezultat = 0;
                     progressBar2.Value = rezultat;
-
                 }
                 else
                     progressBar2.Value = rezultat;
             }
             if ((weaknessOpPok != atk.Type) && OPpok.StrongAgenst != atk.Type)
             {
-
                 rezultat -= atk.Damage;
                 string pp = Mypok.Name + " used : " + atk.Name + "  and dealed " + Convert.ToString(atk.Damage) + " damage";
-
                 textBox1.Text =  pp;
                 if (rezultat < 0)
                 {
                     rezultat = 0;
                     progressBar2.Value = rezultat;
-
                 }
                 else
                     progressBar2.Value = rezultat;

@@ -90,7 +90,7 @@ Animations.cs
           return b;
       }
 ```
-
+</a>
 
 Attack.cs
 =====
@@ -158,8 +158,79 @@ Battel2.cs
 <img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/10320490_863614426998990_9022204208966894112_n.jpg" alt="Main Screen" /> 
 
 </li>
-</ul>
 
+<li>
+Кодот за тоа как осе пресметува силата на нападот врз противникот е дадена во функцијата Calculate_Damage(Attack atk)
+:
+
+
+
+
+
+</li>
+
+
+
+
+</ul>
+```
+
+
+  public void Calculate_Damage(Attack atk)
+        {
+            int rezultat = progressBar2.Value;
+            String typeOpPok = OPpok.Type;
+            String weaknessOpPok = OPpok.Weakness;
+            if (weaknessOpPok == atk.Type)
+            {
+
+                rezultat -= atk.Damage*2;
+                string pp = Mypok.Name + " used : " + atk.Name + "  and dealed " + Convert.ToString(atk.Damage*2) + " damage - SUPER EFFECTIVE";
+
+                textBox1.Text =  pp;
+                if (rezultat < 0)
+                {
+                    rezultat = 0;
+                    progressBar2.Value = rezultat;
+
+                }
+                else
+                    progressBar2.Value = rezultat;
+            }
+            if (OPpok.StrongAgenst== atk.Type)
+            {
+
+                rezultat -= Convert.ToInt32(atk.Damage*0.2);
+                string pp = Mypok.Name + " used : " + atk.Name + "  and dealed " + Convert.ToString(10*0.2) + " damage -NOT VERY EFFECTIVE";
+
+                textBox1.Text =  pp;
+                if (rezultat < 0)
+                {
+                    rezultat = 0;
+                    progressBar2.Value = rezultat;
+
+                }
+                else
+                    progressBar2.Value = rezultat;
+            }
+            if ((weaknessOpPok != atk.Type) && OPpok.StrongAgenst != atk.Type)
+            {
+
+                rezultat -= atk.Damage;
+                string pp = Mypok.Name + " used : " + atk.Name + "  and dealed " + Convert.ToString(atk.Damage) + " damage";
+
+                textBox1.Text =  pp;
+                if (rezultat < 0)
+                {
+                    rezultat = 0;
+                    progressBar2.Value = rezultat;
+
+                }
+                else
+                    progressBar2.Value = rezultat;
+            }
+        }
+```
 
 
 
